@@ -23,8 +23,8 @@ class Config:
     MAX_BIRTH_YEAR = 2009
     EXPECTED_PHONE_LENGTH = 11
     NUMBER_OF_SEMIFINAL_PARTICIPANTS = 55
-    DATE_RANGE_START = pd.to_datetime("2018-01-01")
-    DATE_RANGE_END = pd.to_datetime("2025-03-05")
+    DATE_RANGE_START = pd.to_datetime("2025-01-01")
+    DATE_RANGE_END = pd.to_datetime("2025-01-31")
     
     DELETED_STATUS = "удалена"
     CLASSIC_GAME = "[классика]"
